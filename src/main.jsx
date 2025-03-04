@@ -25,10 +25,10 @@ const router = createBrowserRouter ([
     path:"/accordian",
     element: <Accordion />
   },
-  {
-    path: "/recipe",
-    element: <Recipes />
-  }
+  // {
+  //   path: "/recipe",
+  //   element: <Recipes />
+  // }
 
 ]) ;
 
