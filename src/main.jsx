@@ -5,7 +5,7 @@ import Counter from './components/counter/Counter.jsx';
 import Homepage from './components/Homepage.jsx';
 import Todo from './components/todo/Todo.jsx';
 import Accordion from './components/accordian/Accordian.jsx';
-import Recipes from './components/recipe/Recipes.jsx';
+// import Recipes from './components/recipe/Recipes.jsx';
 
 const router = createBrowserRouter ([
   {
