@@ -9,7 +9,7 @@ function Homepage() {
         <Link to="/counter">Go to Counter</Link>
         <Link to="/todo">Go to Todo</Link>
         <Link to="/accordian">Go to Accordian</Link>
-        {/* <Link to="/recipe">Go to Recipes</Link> */}
+        <Link to="/recipe">Go to Recipes</Link>
       </div>
     </div>
   );

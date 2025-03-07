@@ -5,7 +5,8 @@ import Counter from './components/counter/Counter.jsx';
 import Homepage from './components/Homepage.jsx';
 import Todo from './components/todo/Todo.jsx';
 import Accordion from './components/accordian/Accordian.jsx';
-// import Recipes from './components/recipe/Recipes.jsx';
+import Recipes from './components/recipe/Recipes.jsx';
+import RecipeDetails from './components/recipe/RecipeDetails.jsx';
 
 const router = createBrowserRouter ([
   {
@@ -25,10 +26,14 @@ const router = createBrowserRouter ([
     path:"/accordian",
     element: <Accordion />
   },
-  // {
-  //   path: "/recipe",
-  //   element: <Recipes />
-  // }
+  {
+    path: "/recipe",
+    element: <Recipes />
+  },
+  {
+    path: "/recipe/:id",
+    element: <RecipeDetails />
+  }
 
 ]) ;
 
