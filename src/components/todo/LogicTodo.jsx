@@ -9,7 +9,6 @@ const LogicTodo = () => {
         return JSON.parse(savedTodos)
       } catch (e) {
         console.error("Error parsing todo", e);
-
       }
     }
     return [""]
@@ -19,13 +18,13 @@ const LogicTodo = () => {
 
   const handleChange = (e, index) => {
     const newTodos = [...todos];
-    newTodos[index] = e.targe.value;
+    newTodos[index] = e.target.value;
     setTodos(newTodos);
     autoResize(e.target);
   }
 
   const handleKeyDown = (e, index) => {
-    if(e.key === "Enter" && !e.shiftkey) {
+    if(e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
       if (todos[index].trim() !== "") {
         const newTodos = [...todos];
