@@ -43,4 +43,5 @@ This repository contains a collection of mini projects built using React. Each p
 - **Features:**
   - Search functionality to find meals.
   - Detailed view of each recipe with ingredients and YouTube link.
+  - Fetching and receiving data from 
   - Navigation between the recipe list and details using `react-router-dom`.
